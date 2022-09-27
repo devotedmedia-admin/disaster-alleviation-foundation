@@ -6,6 +6,7 @@ namespace DAF.Pages
 {
     public class viewDisastersModel : PageModel
     {
+        
         public List<Disasters> disastersReceived = new List<Disasters>();
         public bool donationShow = false;
         public void OnGet()
@@ -13,5 +14,6 @@ namespace DAF.Pages
             Disasters disaster = new Disasters();
             disastersReceived = disaster.GetDonations();
         }
+
     }
 }

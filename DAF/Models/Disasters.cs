@@ -5,6 +5,7 @@ namespace DAF.Models
 {
     public class Disasters
     {
+        public string ID { get; set; }
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public string Location { get; set; }
@@ -16,7 +17,7 @@ namespace DAF.Models
             SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
             connect.Open();
 
-            string selectQuery = "SELECT startDate, endDate, location, description, requiredAidType FROM captures";
+            string selectQuery = "SELECT * FROM disasters";
 
             SqlCommand cmd = new(selectQuery, connect);
 
@@ -28,11 +29,12 @@ namespace DAF.Models
             {
                 Disasters disasters = new Disasters();
 
-                disasters.StartDate = reader["startDate"].ToString();
-                disasters.EndDate = reader["endDate"].ToString();
-                disasters.Location = reader["location"].ToString();
-                disasters.Description = reader["description"].ToString();
-                disasters.RequiredAidType = reader["requiredAidType"].ToString();
+                disasters.ID = "" + reader.GetInt32(0);
+                disasters.StartDate = "" + reader.GetDateTime(1);
+                disasters.EndDate = "" + reader.GetDateTime(2);
+                disasters.Location = reader.GetString(3);
+                disasters.Description = reader.GetString(4);
+                disasters.RequiredAidType = reader.GetString(5);
 
                 disasterList.Add(disasters);
             }

@@ -6,7 +6,7 @@ namespace DAF.Pages
 {
     public class registerModel : PageModel
     {
-        public bool hasData = false;
+        public string errorMessage = "";
 
         //register
         public string name = "";
@@ -48,14 +48,15 @@ namespace DAF.Pages
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    errorMessage = e.Message;
                 }
 
                 Response.Redirect("home");
             }
             else
             {
-                hasData = true;
+                errorMessage = "All fields are required to register!";
+                return;
             }
         }
     }

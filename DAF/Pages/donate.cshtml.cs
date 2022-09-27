@@ -9,8 +9,8 @@ namespace DAF.Pages
 {
     public class donateModel : PageModel
     {
-        public bool notEnoughData = false;
-        public bool donationSent = false;
+        public string errorMessage = "";
+        public string successMessage = "";
 
         public string name;
         public string email;
@@ -63,8 +63,8 @@ namespace DAF.Pages
                         Console.WriteLine(e.Message);
                     }
 
-                    //success
-                    donationSent = true;
+                    successMessage = "Thank you! Donations have been successfully sent.";
+                    return;
                 }
                 else if (category.Equals("MONEY"))
                 {
@@ -90,7 +90,8 @@ namespace DAF.Pages
                     }
 
                     //success
-                    donationSent = true;
+                    successMessage = "Thank you! Donations have been successfully sent.";
+                    return;
                 }
                 else
                 {
@@ -115,16 +116,18 @@ namespace DAF.Pages
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
+                        errorMessage = e.Message;
                     }
 
                     //success
-                    donationSent = true;
+                    successMessage = "Thank you! Donations have been successfully sent.";
+                    return;
                 }
             }
             else
             {
-                notEnoughData = true;
+                errorMessage = "All fields are required!";
+                return;
             }
         }
     }

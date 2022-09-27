@@ -31,6 +31,13 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="h-100 bg-secondary p-5">
+                        @if (Model.errorMessage.Length > 0)
+                        {
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <strong>@Model.errorMessage</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
+                            </div>
+                        }
                         <form method="post">
                             <div class="row g-3">
                                 <div class="col-12">
@@ -85,6 +92,15 @@
                                         <label for="userDescription">Describe items if goods category is selected</label>
                                     </div>
                                 </div>
+                                @if (Model.successMessage.Length > 0)
+                                {
+                                    <div class="col-12">
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>@Model.successMessage</strong>
+                                            <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
+                                        </div>
+                                    </div>
+                                }
                                 <div class="col-12">
                                     <button class="btn btn-primary px-5" style="height: 60px;" type="submit">
                                         Donate Now
@@ -95,13 +111,6 @@
                                 </div>
                             </div>
                         </form>
-                        @if(Model.notEnoughData)
-                        {
-                            <h5>Enter the required/mandatory fields.</h5>
-                        }
-                        else if(Model.donationSent){
-                            <h5>Thank you! Donations have been successfully sent.</h5>
-                        }
                     </div>
                 </div>
             </div>

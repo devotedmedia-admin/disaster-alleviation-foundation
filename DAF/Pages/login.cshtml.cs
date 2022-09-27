@@ -9,7 +9,7 @@ namespace DAF.Pages
 {
     public class loginModel : PageModel
     {
-        public bool dataMatch = false;
+        public string errorMessage = "";
 
         public string email = "";
         public string password = "";
@@ -46,12 +46,13 @@ namespace DAF.Pages
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    errorMessage = e.Message;
                 }
             }
             else
             {
-                dataMatch = true;
+                errorMessage = "All fields are required to login!";
+                return;
             }
         }
     }

@@ -8,8 +8,8 @@ namespace DAF.Pages
 {
     public class captureModel : PageModel
     {
-        public bool notEnoughData = false;
-        public bool captureSent = false;
+        public string errorMessage = "";
+        public string successMessage = "";
         public string startDate = "";
         public string endDate = "";
         public string location = "";
@@ -37,7 +37,7 @@ namespace DAF.Pages
                     connect.Open();
 
                     //database writter
-                    string userQuery = "INSERT INTO captures (startDate, endDate, location, description, requiredAidType) " +
+                    string userQuery = "INSERT INTO disasters (startDate, endDate, location, description, requiredAidType) " +
                         "VALUES('" + startDate + "','" + endDate + "','" + location + "','" + description + "','" + aid + "')";
                     
                     SqlCommand sql = new(userQuery, connect);
@@ -48,16 +48,17 @@ namespace DAF.Pages
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    errorMessage = e.Message;
                 }
 
                 //confirmation
-                captureSent = true;
-
+                successMessage = "Thank you! We captured the disaster.";
+                return;
             }
             else
             {
-                notEnoughData = true;
+                errorMessage = "All fields are required!";
+                return;
             }
         }
     }
