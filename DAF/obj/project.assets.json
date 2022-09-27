@@ -2226,11 +2226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\DAF.csproj",
+      "projectUniqueName": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\DAF.csproj",
       "projectName": "DAF",
-      "projectPath": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\DAF.csproj",
+      "projectPath": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\DAF.csproj",
       "packagesPath": "C:\\Users\\Luthando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\",
+      "outputPath": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

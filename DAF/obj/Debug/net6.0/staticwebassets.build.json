@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HhKZT0wtUR+hA74BvbbzTnaBkUqNHMiHX2PCeOq2lO4=",
+  "Hash": "fT5s4uN+YQRRcuXfkrvCTLxkfRx+JAuHuJGgK/kbOkM=",
   "Source": "DAF",
   "BasePath": "_content/DAF",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DAF\\wwwroot",
       "Source": "DAF",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DAF.styles.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DAF.styles.css",
       "SourceId": "DAF",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DAF",
       "RelativePath": "DAF.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DAF.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DAF.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DAF.bundle.scp.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DAF.bundle.scp.css",
       "SourceId": "DAF",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DAF",
       "RelativePath": "DAF.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DAF.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DAF.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\css\\site.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\css\\style.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\favicon.ico",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\about-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\about-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/about-1.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\about-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\about-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/about-2.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\carousel-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\carousel-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/carousel-1.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\carousel-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\carousel-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/carousel-2.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\couple.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\couple.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/couple.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\couple.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\courses-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\courses-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/courses-1.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\courses-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\courses-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/courses-2.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\courses-3.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\courses-3.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/courses-3.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\courses-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\crew.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\crew.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/crew.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\crew.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\crew-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\crew-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/crew-2.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\crew-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\daf1.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\daf1.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/daf1.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\daf1.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\daf2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\daf2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/daf2.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\daf2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\disaster-icon-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\disaster-icon-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/disaster-icon-1.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\disaster-icon-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\donate.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\donate.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/donate.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\donate.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\family.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\family.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/family.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\family.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\fire.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\fire.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/fire.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fire.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\fire.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\fire.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/fire.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fire.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\flood.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\flood.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/flood.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\flood.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\floods.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\floods.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/floods.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\floods.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\food.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\food.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/food.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\food.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\founder-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\founder-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/founder-1.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\founder-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\founder-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\founder-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/founder-2.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\founder-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\founder-3.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\founder-3.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/founder-3.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\founder-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\founder-4.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\founder-4.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/founder-4.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\founder-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\header.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\header.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/header.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\header.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\header.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\header.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/header.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\header.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\header-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\header-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/header-2.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\header-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\header-3.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\header-3.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/header-3.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\header-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\icon-1.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\icon-1.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/icon-1.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-1.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\icon-2.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\icon-2.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/icon-2.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-2.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\icon-3.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\icon-3.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/icon-3.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-3.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\money.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\money.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/money.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\money.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\rocks.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\rocks.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/rocks.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\rocks.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\shelter.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\shelter.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/shelter.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shelter.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\shelter-icons-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\shelter-icons-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/shelter-icons-1.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shelter-icons-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\team-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\team-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/team-1.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\team-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\team-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/team-2.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\team-3.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\team-3.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/team-3.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\team-4.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\team-4.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/team-4.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\testimonial-1.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\testimonial-1.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/testimonial-1.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\testimonial-2.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\testimonial-2.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/testimonial-2.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\testimonial-3.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\testimonial-3.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/testimonial-3.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\thunder.jpg",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\thunder.jpg",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/thunder.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\thunder.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\thunder.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\thunder.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/thunder.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\thunder.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\img\\volcano.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\img\\volcano.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "img/volcano.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\volcano.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\js\\main.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\js\\site.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\animate\\animate.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\animate\\animate.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/animate/animate.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\animate\\animate.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/animate/animate.min.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\parallax\\parallax.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\parallax\\parallax.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/parallax/parallax.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\parallax\\parallax.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\waypoints\\links.php",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\waypoints\\links.php",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/waypoints/links.php",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\wow\\wow.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\wow\\wow.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/wow/wow.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.js"
     },
     {
-      "Identity": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\lib\\wow\\wow.min.js",
+      "Identity": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\lib\\wow\\wow.min.js",
       "SourceId": "DAF",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\DAF - Definite - Copy\\DAF\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luthando\\source\\repos\\disaster-alleviation-foundation\\disaster-alleviation-foundation\\DAF\\wwwroot\\",
       "BasePath": "_content/DAF",
       "RelativePath": "lib/wow/wow.min.js",
       "AssetKind": "All",
