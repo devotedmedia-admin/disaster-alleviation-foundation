@@ -1,0 +1,62 @@
+﻿@page
+@model DAF.Pages.loginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_NotLoggedLayout";
+}
+<!-- Page Header Start -->
+<div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+    <div class="container text-center">
+        <h1 class="display-4 text-white animated slideInDown mb-4">Login/Register</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                <li class="breadcrumb-item text-primary active" aria-current="page">Login/Register</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!--Login Start-->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="display-6 mb-5 text-center">Login</h1>
+                <div class="bg-secondary p-5">
+                    <form method="post">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="email" name="email" class="form-control bg-light border-0" id="loginEmail" placeholder="Your Email">
+                                    <label for="loginEmail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="password" name="password" class="form-control bg-light border-0" id="loginPassword" placeholder="Your Password">
+                                    <label for="loginPassword">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary px-5" style="height: 60px;" type="submit">
+                                    Login
+                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    @if (Model.dataMatch)
+                    {
+                        <h5>Incorrect credentials.</h5>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Login End-->

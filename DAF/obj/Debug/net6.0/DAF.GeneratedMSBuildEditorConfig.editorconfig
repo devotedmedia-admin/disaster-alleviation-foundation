@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DAF
+build_property.RootNamespace = DAF
+build_property.ProjectDir = C:\Users\Luthando\source\repos\DAF - Definite - Copy\DAF\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Luthando\source\repos\DAF - Definite - Copy\DAF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/capture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/causes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F1c2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/donate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZG9uYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/loginRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW5SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/notLoggedContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbm90TG9nZ2VkQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/notLoggedHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbm90TG9nZ2VkSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Shared/_NotLoggedLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ob3RMb2dnZWRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/viewDisasters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdmlld0Rpc2FzdGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/viewDonations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdmlld0RvbmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/DAF - Definite - Copy/DAF/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-69zj834wwo
