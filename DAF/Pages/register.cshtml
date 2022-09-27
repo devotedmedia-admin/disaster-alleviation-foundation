@@ -20,58 +20,60 @@
 <!-- Page Header End -->
 
 <!--Register Start-->
+<center>
 <div class="container-fluid py-5">
     <div class="container">
-<div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-    <h1 class="display-6 mb-5 text-center">Register</h1>
-    <div class="bg-secondary p-5">
-        <form method="post">
-            <div class="row g-3">
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control bg-light border-0" name="name" id="registerName" placeholder="Your Name">
-                        <label for="registerName">Name</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control bg-light border-0" name="surname" id="registeSurname" placeholder="Your Surname">
-                        <label for="registeSurname">Surname</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="email" class="form-control bg-light border-0" name="email" id="registerEmail" placeholder="Your Email">
-                        <label for="registerEmail">Email</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control bg-light border-0" name="phone" id="phoneNumber" placeholder="Your Phone Number">
-                        <label for="phoneNumber">Phone Number</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="form-floating">
-                        <input type="password" class="form-control bg-light border-0" name="regPassword" id="registerPassword" placeholder="Your Password">
-                        <label for="registerPassword">Password</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <button class="btn btn-primary px-5" style="height: 60px;" type="submit">
-                        Register
-                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                            <i class="fa fa-arrow-right"></i>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <h1 class="display-6 mb-5 text-center">Register</h1>
+            <div class="bg-secondary p-5">
+                <form method="post">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control bg-light border-0" name="name" id="registerName" placeholder="Your Name">
+                                <label for="registerName">Name</label>
+                            </div>
                         </div>
-                    </button>
-                </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control bg-light border-0" name="surname" id="registeSurname" placeholder="Your Surname">
+                                <label for="registeSurname">Surname</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="email" class="form-control bg-light border-0" name="email" id="registerEmail" placeholder="Your Email">
+                                <label for="registerEmail">Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control bg-light border-0" name="phone" id="phoneNumber" placeholder="Your Phone Number">
+                                <label for="phoneNumber">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="password" class="form-control bg-light border-0" name="regPassword" id="registerPassword" placeholder="Your Password">
+                                <label for="registerPassword">Password</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary px-5" style="height: 60px;" type="submit">
+                                Register
+                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                @if(Model.hasData){
+                    <h5>All fields are required to register!</h5>
+                }
             </div>
-        </form>
-        @if(Model.hasData){
-            <h5>All fields are required to register!</h5>
-        }
+        </div>
     </div>
 </div>
-</div>
-</div>
+</center>
 <!--Register End-->
