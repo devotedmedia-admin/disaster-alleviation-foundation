@@ -9,14 +9,14 @@ namespace DAF.Pages
     public class allocateModel : PageModel
     {
         public string Category { get; set; }
-        public string Amount { get; set; }
+        public int Amount { get; set; }
         public string Message { get; set; }
 
         public string errorMessage = "";
 
         public string successMessage = "";
 
-        public Disasters disasters = new Disasters();
+        public Disasters disasters = new();
         public void OnGet()
         {
             String ID = Request.Query["ID"];
@@ -58,13 +58,13 @@ namespace DAF.Pages
             disasters.Description = Request.Form["description"];
             disasters.RequiredAidType = Request.Form["aid"];
             Category = Request.Form["category"];
-            Amount = Request.Form["amount"];
+            Amount = Convert.ToInt32(Request.Form["amount"]);
             Message = Request.Form["message"];
 
 
             if (disasters.StartDate.Length == 0 || disasters.EndDate.Length == 0
                 || disasters.Location.Length == 0 || disasters.Description.Length == 0 ||
-                disasters.RequiredAidType.Length == 0 || Category.Length == 0 || Amount.Length == 0)
+                disasters.RequiredAidType.Length == 0 || Category.Length == 0 || Amount == 0)
             {
                 errorMessage = "All fields are required!";
                 return;

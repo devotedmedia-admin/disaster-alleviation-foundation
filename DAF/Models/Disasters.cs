@@ -23,18 +23,19 @@ namespace DAF.Models
 
             SqlDataReader reader = cmd.ExecuteReader();
 
-            List<Disasters> disasterList = new List<Disasters>();
+            List<Disasters> disasterList = new();
 
             while (reader.Read())
             {
-                Disasters disasters = new Disasters();
-
-                disasters.ID = "" + reader.GetInt32(0);
-                disasters.StartDate = "" + reader.GetDateTime(1);
-                disasters.EndDate = "" + reader.GetDateTime(2);
-                disasters.Location = reader.GetString(3);
-                disasters.Description = reader.GetString(4);
-                disasters.RequiredAidType = reader.GetString(5);
+                Disasters disasters = new()
+                {
+                    ID = "" + reader.GetInt32(0),
+                    StartDate = "" + reader.GetDateTime(1),
+                    EndDate = "" + reader.GetDateTime(2),
+                    Location = reader.GetString(3),
+                    Description = reader.GetString(4),
+                    RequiredAidType = reader.GetString(5)
+                };
 
                 disasterList.Add(disasters);
             }

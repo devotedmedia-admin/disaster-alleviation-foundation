@@ -15,7 +15,7 @@ namespace DAF.Pages
         public void OnPost()
         {
             category = Request.Form["category"];
-            Donations donation = new Donations();
+            Donations donation = new();
             donationsMade = donation.GetDonations(category);
         }
     }

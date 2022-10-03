@@ -17,7 +17,7 @@ namespace DAF.Pages
         public string category;
         public string customCategory;
         public string date;
-        public string amount;
+        public int amount;
         public string description;
         public void OnGet()
         {
@@ -30,13 +30,13 @@ namespace DAF.Pages
             category = Request.Form["category"];
             customCategory = Request.Form["customCategory"];
             date = Request.Form["date"];
-            amount = Request.Form["amount"];
+            amount = Convert.ToInt32(Request.Form["amount"]);
             description = Request.Form["description"];
 
             SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
 
             
-            if (category.Length > 0 && date.Length > 0 && amount.Length > 0 && description.Length > 0)
+            if (category.Length > 0 && date.Length > 0 && amount > 0)
             {
                 if (category.Equals("OTHER") && customCategory.Length > 0)
                 {

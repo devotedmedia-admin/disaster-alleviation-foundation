@@ -9,7 +9,7 @@ namespace DAF.Models
         public string Email { get; set; }
         public string Category { get; set; }
         public string Date { get; set; }
-        public string Amount { get; set; }
+        public int Amount { get; set; }
         public string Description { get; set; }
 
         public List<Donations> GetDonations(string category)
@@ -23,18 +23,19 @@ namespace DAF.Models
 
             SqlDataReader reader = cmd.ExecuteReader();
 
-            List<Donations> donationList = new List<Donations>();
+            List<Donations> donationList = new();
 
             while (reader.Read())
             {
-                Donations donations = new Donations();
-
-                donations.Name = reader["name"].ToString();
-                donations.Email = reader["email"].ToString();
-                donations.Category = reader["category"].ToString();
-                donations.Date = reader["date"].ToString();
-                donations.Amount = reader["amount"].ToString();
-                donations.Description = reader["description"].ToString();
+                Donations donations = new()
+                {
+                    Name = reader["name"].ToString(),
+                    Email = reader["email"].ToString(),
+                    Category = reader["category"].ToString(),
+                    Date = reader["date"].ToString(),
+                    Amount = Convert.ToInt32(reader["amount"].ToString()),
+                    Description = reader["description"].ToString()
+                };
 
                 donationList.Add(donations);
             }

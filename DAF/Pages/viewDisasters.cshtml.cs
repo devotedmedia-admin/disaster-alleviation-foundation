@@ -11,7 +11,7 @@ namespace DAF.Pages
         public bool donationShow = false;
         public void OnGet()
         {
-            Disasters disaster = new Disasters();
+            Disasters disaster = new();
             disastersReceived = disaster.GetDonations();
         }
 

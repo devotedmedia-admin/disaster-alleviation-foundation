@@ -1,4 +1,5 @@
 ﻿@page
+@model DAF.Pages.notLoggedHomeModel
 @{
     Layout = "_NotLoggedLayout";
 }
@@ -59,57 +60,6 @@
         </div>
     </div>
     <!-- Carousel End -->
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/money.jpg" alt="">
-                        <h4 class="mb-3">Money</h4>
-                        <p class="mb-4">We accept monetory donations to uplift those that have found themselves seaking help</p>
-                        <a class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/shelter-icons-1.jpg" alt="">
-                        <h4 class="mb-3">Care Taking</h4>
-                        <p class="mb-4">We accept goods donations to uplift those that have found themselves seaking help and provide care for them</p>
-                        <a class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3">Medical Treatment</h4>
-                        <p class="mb-4">We offer medical care and treatment to those that need it</p>
-                        <a class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
     <!-- Causes Start -->
     <div class="container-xxl bg-light my-5">
         <div class="container py-5">
@@ -182,6 +132,27 @@
         </div>
     </div>
     <!-- Causes End -->
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-secondary my-5 py-5">
+        <div class="container">
+            <div class="row">
+                @foreach(var display in Model.receivedFunds)
+                {
+                    <div class="col-6 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                        <p class="text-white mb-0">Goods Donations Received</p>
+                    </div>
+                    <div class="col-6 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">R @display.DonationMoney</h2>
+                        <p class="text-white mb-0">Monetary Donations Received</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
     <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -231,4 +202,3 @@
     </div>
     <!-- Testimonial End -->
 </div>
-
