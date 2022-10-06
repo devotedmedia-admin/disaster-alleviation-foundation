@@ -1,62 +1,70 @@
 ﻿@page
 @model DAF.Pages.viewDisastersModel
 @{
-    <div>
-        <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container text-center">
-                <h1 class="display-4 text-white animated slideInDown mb-4">Disasters</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-primary active" aria-current="page">Disasters</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- Page Header End -->
-
-        <div container-fluid py-5>
-            <div class="container">
-                <center><div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">View Disasters</div></center>
-
-                <h1 class="display-6 mt-5 mb-5">Disasters</h1>
-                <p>Disasters Reported:</p>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Start Date</th>
-                            <th>End Date</th>
-                            <th>Location</th>
-                            <th>Description</th>
-                            <th>Required Aid Type</th>
-                            <th>Allocate Money/Goods</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var capture in Model.disastersReceived)
-                        {
-                            <tr>
-                                <td>@capture.StartDate</td>
-                                <td>@capture.EndDate</td>
-                                <td>@capture.Location</td>
-                                <td>@capture.Description</td>
-                                <td>@capture.RequiredAidType</td>
-                                <td>
-                                    <a class="btn btn-primary px-5" style="height: 45px;" href="/allocate?ID=@capture.ID">
-                                        Help
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-    </div>
+    Layout = "_AdminLayout";
 }
+<div>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Disasters</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Disasters</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div container-fluid py-5>
+        <div class="container">
+            <center><div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">View Disasters</div></center>
+
+            <h1 class="display-6 mt-5 mb-5">Disasters</h1>
+            <p>Disasters Reported:</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Location</th>
+                        <th>Description</th>
+                        <th>Required Aid Type</th>
+                        <th>Allocate</th>
+                        <th>Purchase Goods</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var capture in Model.disastersReceived)
+                    {
+                        <tr>
+                            <td>@capture.StartDate</td>
+                            <td>@capture.EndDate</td>
+                            <td>@capture.Location</td>
+                            <td>@capture.Description</td>
+                            <td>@capture.RequiredAidType</td>
+                            <td>
+                                <a class="btn btn-primary px-5" style="height: 45px;" href="/allocate?ID=@capture.ID">
+                                    Help
+
+                                </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-primary px-5" style="height: 45px;" href="/purchase?ID=@capture.ID">
+
+                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

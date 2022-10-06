@@ -4,222 +4,186 @@
     ViewData["Title"] = "Home Page";
 }
 <div>
-<!-- Carousel Start -->
-<div class="container-fluid p-0 mb-5">
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="img/header.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-7 pt-5">
-                                <h1 class="display-4 text-white mb-3 animated slideInDown">Let's Change The World With Humanity</h1>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/header.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Let's Change The World With Humanity</h1>
                                     <p class="fs-5 text-white-50 mb-5 animated slideInDown">It all starts here with you!</p>
-                                <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                    Learn More
-                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="img/header-3.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-7 pt-5">
-                                <h1 class="display-4 text-white mb-3 animated slideInDown">Let's Save More Lifes With Our Helping Hand</h1>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/header-3.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Let's Save More Lifes With Our Helping Hand</h1>
                                     <p class="fs-5 text-white-50 mb-5 animated slideInDown">Nothing but progressive change</p>
-                                <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                    Learn More
-                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
-<!-- Carousel End -->
-
-<!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <!-- Carousel End -->
+    <!-- Causes Start -->
+    <div class="container-xxl bg-light my-5">
+        <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
+                <h1 class="display-6 mb-5">Every Disadvantaged Person Deserves The Opportunity To Get Back Up</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/money.jpg" alt="">
-                        <h4 class="mb-3">Money</h4>
-                        <p class="mb-4">We accept monetory donations to uplift those that have found themselves seaking help</p>
-                        <a asp-page="/donate" class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Fire</small>
                             </div>
-                        </a>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/fire.jpg" alt="">
+                            <div class="causes-overlay">
+                                <a asp-page="/causes" class="btn btn-outline-primary">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/shelter-icons-1.jpg" alt="">
-                        <h4 class="mb-3">Care Taking</h4>
-                        <p class="mb-4">We accept goods donations to uplift those that have found themselves seaking help and provide care for them</p>
-                        <a asp-page="/donate" class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Floods</small>
                             </div>
-                        </a>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/flood.jpg" alt="">
+                            <div class="causes-overlay">
+                                <a asp-page="/causes" class="btn btn-outline-primary">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3">Medical Treatment</h4>
-                        <p class="mb-4">We offer medical care and treatment to those that need it</p>
-                        <a asp-page="/donate" class="btn btn-outline-primary px-3">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Thunder</small>
                             </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- Service End -->
-
-<!-- Causes Start -->
-<div class="container-xxl bg-light my-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
-            <h1 class="display-6 mb-5">Every Disadvantaged Person Deserves The Opportunity To Get Back Up</h1>
-        </div>
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                            <small>Fire</small>
                         </div>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" src="img/fire.jpg" alt="">
-                        <div class="causes-overlay">
-                            <a asp-page="/causes" class="btn btn-outline-primary">
-                                Read More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                            <small>Floods</small>
-                        </div>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" src="img/flood.jpg" alt="">
-                        <div class="causes-overlay">
-                            <a asp-page="/causes" class="btn btn-outline-primary">
-                                Read More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                            <small>Thunder</small>
-                        </div>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" src="img/thunder.jpg" alt="">
-                        <div class="causes-overlay">
-                            <a asp-page="/causes" class="btn btn-outline-primary">
-                                Read More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/thunder.jpg" alt="">
+                            <div class="causes-overlay">
+                                <a asp-page="/causes" class="btn btn-outline-primary">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Causes End -->
-
-<!-- Testimonial Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
-            <h1 class="display-6 mb-5">Trusted By Thousands Of People And Nonprofit Organisations</h1>
+    <!-- Causes End -->
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-secondary my-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Goods Donations Received</p>
+                </div>
+                <div class="col-6 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">R @Model.AvailableFunds</h2>
+                    <p class="text-white mb-0">Monetary Donations Received</p>
+                </div>
+            </div>
         </div>
-        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/family.jpg" style="width: 100px; height: 100px;">
-                <div class="testimonial-text rounded text-center p-4">
+    </div>
+    <!-- Fact End -->
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
+                <h1 class="display-6 mb-5">Trusted By Thousands Of People And Nonprofit Organisations</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/family.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
                         <p>
                             THANKS FOR THE LAPTOP!
                             Thank you so much for the laptop computer you provided for Zeke. It has been very helpful for him and I'm sure will continue to be helpful for a long time.
                         </p>
                         <h5 class="mb-1">the Rayburn</h5>
-                    <span class="fst-italic">Family</span>
+                        <span class="fst-italic">Family</span>
+                    </div>
                 </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/couple.jpg" style="width: 100px; height: 100px;">
-                <div class="testimonial-text rounded text-center p-4">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/couple.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
                         <p>
-                            As soon as we think outside of ourselves and work collectively, we've got the capability to influence the condition of all. You might have experienced in your own 
-                            life a time when people reached out and helped you. For us, DAF is the ideal method to help the most people and we are proud to have donated 3 houses from 
+                            As soon as we think outside of ourselves and work collectively, we've got the capability to influence the condition of all. You might have experienced in your own
+                            life a time when people reached out and helped you. For us, DAF is the ideal method to help the most people and we are proud to have donated 3 houses from
                             our portfolio.
                         </p>
-                    <h5 class="mb-1">Mr & Mrs Williams</h5>
-                    <span class="fst-italic">Donators</span>
+                        <h5 class="mb-1">Mr & Mrs Williams</h5>
+                        <span class="fst-italic">Donators</span>
+                    </div>
                 </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/team-3.jpg" style="width: 100px; height: 100px;">
-                <div class="testimonial-text rounded text-center p-4">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/team-3.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
                         <p>
                             THANK YOU!
                             God Bless you for being so special
@@ -228,11 +192,12 @@
                         </p>
                         <h5 class="mb-1">Carol</h5>
                         <span class="fst-italic">Family Witness</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Testimonial End -->
 </div>
-<!-- Testimonial End -->
-</div>
+
 

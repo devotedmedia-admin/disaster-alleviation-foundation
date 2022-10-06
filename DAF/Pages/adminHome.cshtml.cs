@@ -4,10 +4,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace DAF.Pages
 {
-    public class notLoggedHomeModel : PageModel
+    public class adminHomeModel : PageModel
     {
-        public int AvailableFunds {get;set;}
-        
+        public int AvailableFunds { get; set; }
         public void OnGet()
         {
             Funds fund = new();

@@ -40,8 +40,15 @@ namespace DAF.Pages
                     {
                         if (email.Equals(reader.GetValue(3)) && password.Equals(reader.GetValue(5)))
                         {
-                            Response.Redirect("home");
-                        }   
+                            if(reader.GetValue(3).Equals("admin@daf.com") && reader.GetValue(5).Equals("password1"))
+                            {
+                                Response.Redirect("adminHome");
+                            }
+                            else
+                            {
+                                Response.Redirect("home");
+                            }
+                        }
                     }
                 }
                 catch (Exception e)

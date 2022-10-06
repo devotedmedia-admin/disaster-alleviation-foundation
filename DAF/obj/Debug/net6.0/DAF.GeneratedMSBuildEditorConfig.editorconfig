@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/adminHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5Ib21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/allocate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWxsb2NhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,16 +43,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZG9uYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaG9tZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/login.cshtml]
@@ -71,12 +67,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/purchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHVyY2hhc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/service.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Luthando/source/repos/disaster-alleviation-foundation/disaster-alleviation-foundation/DAF/Pages/Shared/_NotLoggedLayout.cshtml]

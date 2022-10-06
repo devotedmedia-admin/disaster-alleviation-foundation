@@ -1,0 +1,119 @@
+﻿@page
+@model DAF.Pages.purchaseModel
+@{
+}
+<div>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Purchase Goods</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Purchase Goods</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Purchase Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Allocate</div>
+                    <h1 class="display-6 mb-5">Purchase Goods For This Disaster</h1>
+                </div>
+                <div class="col-lg-6">
+                    @if (Model.errorMessage.Length > 0)
+                    {
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>@Model.errorMessage</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                    }
+                    <form method="post">
+                        <input type="hidden" name="id" value="@Model.disasters.ID" />
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="start" id="startDate" value="@Model.disasters.StartDate">
+                                    <label for="startDate">start Date</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="end" id="endDate" value="@Model.disasters.EndDate">
+                                    <label for="endDate">End Date</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="place" id="location" value="@Model.disasters.Location">
+                                    <label for="location">Location</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input class="form-control" name="description" id="disasterDescription" style="height: 100px" value="@Model.disasters.Description">
+                                    <label for="disasterDescription">Description</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="aid" id="aidType" value="@Model.disasters.RequiredAidType">
+                                    <label for="aidType">Required Aid Type</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label>Category</label>
+                                <select class="form-control" name="category" id="userCategory">
+                                    <option value="GOODS" selected> Goods </option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="item" id="itemName">
+                                    <label for="itemName">Product Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="number" name="quantity" class="form-control" id="numberOfItems">
+                                    <label for="numberOfItems">Number of items</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label>(Required*)</label>
+                                <div class="form-floating">
+                                    <input type="number" name="price" class="form-control" id="itemPrice">
+                                    <label for="itemPrice">Price</label>
+                                </div>
+                            </div>
+                            @if (Model.successMessage.Length > 0)
+                            {
+                                <div class="col-12">
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <strong>@Model.successMessage</strong>
+                                        <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
+                                    </div>
+                                </div>
+                            }
+                            <div class="col-12">
+                                <button class="btn btn-primary py-2 px-3 me-3" type="submit">
+                                    Capture Disaster
+                                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Purchase End -->
+</div>
+
