@@ -28,7 +28,8 @@ namespace DAF.Pages
             aid = Request.Form["aid"];
 
             //connection string
-            SqlConnection connect = new(@"Data Source =.\sqlexpress; Initial Catalog = DAF; Integrated Security = True");
+            String cString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(cString);
 
             if(startDate.Length > 0 && endDate.Length > 0 && location.Length > 0 && description.Length > 0 && aid.Length > 0)
             {

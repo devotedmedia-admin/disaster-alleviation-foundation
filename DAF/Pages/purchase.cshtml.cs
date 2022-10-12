@@ -23,7 +23,8 @@ namespace DAF.Pages
 
             try
             {
-                SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+                String stringCon = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                SqlConnection connect = new(stringCon);
                 connect.Open();
 
                 string selectQuery = "SELECT * FROM disasters WHERE id=@ID";
@@ -72,7 +73,8 @@ namespace DAF.Pages
             }
 
             //connection string
-            SqlConnection connect = new(@"Data Source =.\sqlexpress; Initial Catalog = DAF; Integrated Security = True");
+            String connn = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(connn);
 
             try
             {

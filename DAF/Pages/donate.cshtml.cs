@@ -33,7 +33,8 @@ namespace DAF.Pages
             amount = Convert.ToInt32(Request.Form["amount"]);
             description = Request.Form["description"];
 
-            SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+            String conn = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(conn);
 
             
             if (category.Length > 0 && date.Length > 0 && amount > 0)

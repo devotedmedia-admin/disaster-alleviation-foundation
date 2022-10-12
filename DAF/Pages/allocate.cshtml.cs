@@ -11,6 +11,7 @@ namespace DAF.Pages
         public string Category { get; set; }
         public int Amount { get; set; }
         public string Message { get; set; }
+        public int AvailableFunds { get; set; }
 
         public string errorMessage = "";
 
@@ -23,7 +24,8 @@ namespace DAF.Pages
 
             try
             {
-                SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+                String connString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                SqlConnection connect = new(connString);
                 connect.Open();
 
                 string selectQuery = "SELECT * FROM disasters WHERE id=@ID";
@@ -52,6 +54,10 @@ namespace DAF.Pages
         }
         public void OnPost()
         {
+            //get total donations
+            Funds fund = new();
+            AvailableFunds = fund.CalculateMoney();
+
             disasters.StartDate = Request.Form["start"];
             disasters.EndDate = Request.Form["end"];
             disasters.Location = Request.Form["place"];
@@ -71,22 +77,32 @@ namespace DAF.Pages
             }
 
             //connection string
-            SqlConnection connect = new(@"Data Source =.\sqlexpress; Initial Catalog = DAF; Integrated Security = True");
+            String connectString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(connectString);
 
             try
             {
                 connect.Open();
 
-                //database writter
-                string userQuery = "INSERT INTO allocations (startDate, endDate, location, description, requiredAidType, " +
-                    "category, amount, message) " +
-                    "VALUES('" + disasters.StartDate + "','" + disasters.EndDate + "','" + disasters.Location + "','" + 
-                    disasters.Description + "','" + disasters.RequiredAidType + "','" + Category + "','" + Amount + "','" + 
-                    Message + "')";
+                if(Category == "MONEY" && Amount > AvailableFunds)
+                {
+                    errorMessage = "Insufficient funds to allocate to disaster! Check available balance.";
+                    return;
+                }
+                else
+                {
+                    //database writter
+                    string userQuery = "INSERT INTO allocations (startDate, endDate, location, description, requiredAidType, " +
+                        "category, amount, message) " +
+                        "VALUES('" + disasters.StartDate + "','" + disasters.EndDate + "','" + disasters.Location + "','" +
+                        disasters.Description + "','" + disasters.RequiredAidType + "','" + Category + "','" + Amount + "','" +
+                        Message + "')";
 
-                SqlCommand sql = new(userQuery, connect);
+                    SqlCommand sql = new(userQuery, connect);
 
-                sql.ExecuteNonQuery();
+                    sql.ExecuteNonQuery();
+                    
+                }
 
             }
             catch(Exception e)

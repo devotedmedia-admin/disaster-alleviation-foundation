@@ -14,7 +14,8 @@ namespace DAF.Models
 
         public List<Disasters> GetDonations()
         {
-            SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+            String connectionString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(connectionString);
             connect.Open();
 
             string selectQuery = "SELECT * FROM disasters";

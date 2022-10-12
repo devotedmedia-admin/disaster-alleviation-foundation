@@ -1,6 +1,7 @@
 ﻿@page
 @model DAF.Pages.allocateModel
 @{
+    Layout = "_AdminLayout";
 }
 <div>
     <!-- Page Header Start -->
@@ -37,37 +38,37 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="start" id="startDate" value="@Model.disasters.StartDate">
+                                    <input readonly="readonly" type="text" class="form-control" name="start" id="startDate" value="@Model.disasters.StartDate">
                                     <label for="startDate">start Date</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="end" id="endDate" value="@Model.disasters.EndDate">
+                                    <input readonly="readonly" type="text" class="form-control" name="end" id="endDate" value="@Model.disasters.EndDate">
                                     <label for="endDate">End Date</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="place" id="location" value="@Model.disasters.Location">
+                                    <input readonly="readonly" type="text" class="form-control" name="place" id="location" value="@Model.disasters.Location">
                                     <label for="location">Location</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input class="form-control" name="description" id="disasterDescription" style="height: 100px" value="@Model.disasters.Description">
+                                    <input readonly="readonly" type="text" class="form-control" name="description" id="disasterDescription" style="height: 100px" value="@Model.disasters.Description">
                                     <label for="disasterDescription">Description</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="aid" id="aidType" value="@Model.disasters.RequiredAidType">
+                                    <input readonly="readonly" type="text" class="form-control" name="aid" id="aidType" value="@Model.disasters.RequiredAidType">
                                     <label for="aidType">Required Aid Type</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <label>Select Category(Required*)</label>
-                                <select class="form-control" name="category" id="userCategory">
+                                <select class="form-floating" name="category" id="userCategory">
                                     <option value="MONEY" selected> Money </option>
                                     <option value="GOODS"> Goods </option>
                                 </select>

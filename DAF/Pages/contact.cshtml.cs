@@ -24,7 +24,8 @@ namespace DAF.Pages
             contactSubject = Request.Form["contactSubject"];
             contactMessage = Request.Form["contactMessage"];
 
-            SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+            String conString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(conString);
 
             if (contactName.Length > 0 && contactName.Length > 0 && contactSubject.Length > 0 && contactMessage.Length > 0)
             {

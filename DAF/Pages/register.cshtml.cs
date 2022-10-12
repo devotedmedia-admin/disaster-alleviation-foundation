@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace DAF.Pages
 {
@@ -28,7 +29,8 @@ namespace DAF.Pages
             password = Request.Form["regPassword"];
 
             //connection string
-            SqlConnection connect = new(@"Data Source =.\sqlexpress; Initial Catalog = DAF; Integrated Security = True");
+            String connectionString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(connectionString); 
 
             if (name.Length > 0 && surname.Length > 0 && email.Length > 0 && phone.Length > 0 && password.Length > 0)
             {

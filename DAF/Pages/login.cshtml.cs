@@ -21,7 +21,8 @@ namespace DAF.Pages
             email = Request.Form["email"];
             password = Request.Form["password"];
 
-            SqlConnection connect = new(@"Data Source=.\sqlexpress;Initial Catalog=DAF;Integrated Security=True");
+            String connectString = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            SqlConnection connect = new(connectString);
 
             if (email.Length > 0 && password.Length > 0)
             {
