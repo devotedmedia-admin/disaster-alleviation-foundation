@@ -50,6 +50,10 @@ namespace DAF.Pages
                                 Response.Redirect("home");
                             }
                         }
+                        else if (email != reader.GetValue(3).ToString() || password != reader.GetValue(5).ToString())
+                        {
+                            errorMessage = "User not authorised!";
+                        }
                     }
                 }
                 catch (Exception e)
