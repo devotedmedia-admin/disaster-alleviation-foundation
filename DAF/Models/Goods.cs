@@ -3,43 +3,43 @@ using System.Data.SqlClient;
 using System.Xml.Linq;
 namespace DAF.Models
 {
-    public class Funds
+    public class Goods
     {
-        public int DonationMoney { get; set; }
-        public int AllocatedFunds { get; set; }
-        public int FundsAfterDeductions { get; set; }
-        public int PurchasesMoney { get; set; }
-        public int CalculateMoney()
+        public int DonationGoods { get; set; }
+        public int AllocatedGoods { get; set; }
+        public int GoodsAfterDeductions { get; set; }
+        public int PurchasedGoods { get; set; }
+        public int CalculateGoods()
         {
             String conStringg = "Server=tcp:luthandokelengeshe.database.windows.net,1433;Initial Catalog=DAF;Persist Security Info=False;User ID=luthandokelengeshe;Password=Kelenge$he8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             SqlConnection connect = new(conStringg);
             connect.Open();
 
             //getting donations total sum
-            string selectQuery = "SELECT SUM(amount) FROM donations WHERE category ='MONEY'";
+            string selectQuery = "SELECT SUM(amount) FROM donations WHERE category ='GOODS'";
 
             SqlCommand cmd = new(selectQuery, connect);
 
-            DonationMoney = (int)cmd.ExecuteScalar();
+            DonationGoods = (int)cmd.ExecuteScalar();
 
             //getting allocations total sum
-            string query = "SELECT SUM(amount) FROM allocations WHERE category ='MONEY'";
+            string query = "SELECT SUM(amount) FROM allocations WHERE category ='GOODS'";
 
             SqlCommand command = new(query, connect);
 
-            AllocatedFunds = (int)command.ExecuteScalar();
+            AllocatedGoods = (int)command.ExecuteScalar();
 
             //getting purchases total
-            string pQuery = "SELECT SUM(price) FROM purchases";
+            string pQuery = "SELECT SUM(quantity) FROM purchases";
 
             SqlCommand sql = new(pQuery, connect);
 
-            PurchasesMoney = (int)sql.ExecuteScalar();
+            PurchasedGoods = (int)sql.ExecuteScalar();
 
             //deducting
-            FundsAfterDeductions = DonationMoney - AllocatedFunds - PurchasesMoney;
+            GoodsAfterDeductions = DonationGoods - AllocatedGoods - PurchasedGoods;
 
-            return FundsAfterDeductions;
+            return GoodsAfterDeductions;
         }
     }
 }

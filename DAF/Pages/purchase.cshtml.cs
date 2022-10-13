@@ -11,6 +11,7 @@ namespace DAF.Pages
         public string Item { get; set; }
         public int Quantity { get; set; }
         public int Price { get; set; }
+        public int AvailableFunds { get; set; }
 
         public string errorMessage = "";
 
@@ -53,6 +54,10 @@ namespace DAF.Pages
         }
         public void OnPost()
         {
+            //get total donations
+            Funds fund = new();
+            AvailableFunds = fund.CalculateMoney();
+
             disasters.StartDate = Request.Form["start"];
             disasters.EndDate = Request.Form["end"];
             disasters.Location = Request.Form["place"];
@@ -78,19 +83,27 @@ namespace DAF.Pages
 
             try
             {
+                //connect to database
                 connect.Open();
 
-                //database writter
-                string userQuery = "INSERT INTO purchases (startDate, endDate, location, description, requiredAidType, " +
-                    "category, item, quantity, price) " +
-                    "VALUES('" + disasters.StartDate + "','" + disasters.EndDate + "','" + disasters.Location + "','" +
-                    disasters.Description + "','" + disasters.RequiredAidType + "','" + Category + "','" + Item + "','" +
-                    Quantity + "','" + Price + "')";
+                if (Price > AvailableFunds)
+                {
+                    errorMessage = "Insufficient funds to purchase goods for this disaster! Check available balance.";
+                    return;
+                }
+                else
+                {
+                    //database writter
+                    string userQuery = "INSERT INTO purchases (startDate, endDate, location, description, requiredAidType, " +
+                        "category, item, quantity, price) " +
+                        "VALUES('" + disasters.StartDate + "','" + disasters.EndDate + "','" + disasters.Location + "','" +
+                        disasters.Description + "','" + disasters.RequiredAidType + "','" + Category + "','" + Item + "','" +
+                        Quantity + "','" + Price + "')";
 
-                SqlCommand sql = new(userQuery, connect);
+                    SqlCommand sql = new(userQuery, connect);
 
-                sql.ExecuteNonQuery();
-
+                    sql.ExecuteNonQuery();
+                }
             }
             catch (Exception e)
             {
@@ -99,7 +112,7 @@ namespace DAF.Pages
             }
 
             //confirmation
-            successMessage = "Thank you, the goods have been purchased for this disaster.";
+            successMessage = "Goods successfully purchased for this disaster!";
             return;
         }
     }

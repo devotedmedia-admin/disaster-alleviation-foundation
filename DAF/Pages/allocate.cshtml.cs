@@ -12,6 +12,7 @@ namespace DAF.Pages
         public int Amount { get; set; }
         public string Message { get; set; }
         public int AvailableFunds { get; set; }
+        public int AvailableGoods { get; set; }
 
         public string errorMessage = "";
 
@@ -58,6 +59,9 @@ namespace DAF.Pages
             Funds fund = new();
             AvailableFunds = fund.CalculateMoney();
 
+            Goods goods = new();
+            AvailableGoods = goods.CalculateGoods();
+
             disasters.StartDate = Request.Form["start"];
             disasters.EndDate = Request.Form["end"];
             disasters.Location = Request.Form["place"];
@@ -89,6 +93,11 @@ namespace DAF.Pages
                     errorMessage = "Insufficient funds to allocate to disaster! Check available balance.";
                     return;
                 }
+                else if(Category == "GOODS" && Amount > AvailableGoods)
+                {
+                    errorMessage = "Insufficient goods to allocate to disaster! Check available goods.";
+                    return;
+                }
                 else
                 {
                     //database writter
@@ -112,7 +121,7 @@ namespace DAF.Pages
             }
 
             //confirmation
-            successMessage = "Thank you! We've allocated your donation to this disaster.";
+            successMessage = "Donation successfully allocated to disaster!";
             return;
         }
     }

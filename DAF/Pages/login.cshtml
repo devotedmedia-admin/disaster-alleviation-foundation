@@ -19,21 +19,20 @@
 </div>
 <!-- Page Header End -->
 
-<!--Login Start-->
+<!--Register Start-->
 <center>
-<div class="container-fluid py-5">
-    <div class="container">
-        <div class="row g-5">
+    <div class="container-fluid py-5">
+        <div class="container">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <h1 class="display-6 mb-5 text-center">Login</h1>
                 <div class="bg-secondary p-5">
-                        @if (Model.errorMessage.Length > 0)
-                        {
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <strong>@Model.errorMessage</strong>
-                                <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
-                            </div>
-                        }
+                    @if (Model.errorMessage.Length > 0)
+                    {
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>@Model.errorMessage</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                    }
                     <form method="post">
                         <div class="row g-3">
                             <div class="col-12">
@@ -62,6 +61,5 @@
             </div>
         </div>
     </div>
-</div>
 </center>
-<!--Login End-->
+<!--Register End-->
