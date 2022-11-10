@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace DAF.Pages
 {
-    public class causesModel : PageModel
+    public class notLoggedDisasterModel : PageModel
     {
         public List<Allocations> allocationsMade = new();
-        
+
         public void OnGet()
         {
             Allocations allocations = new();

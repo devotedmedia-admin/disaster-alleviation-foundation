@@ -7,7 +7,7 @@ namespace ProgramLogic.nUnitTests
     {
         private Funds funds = null!;
         private Goods goods = null!;
-        private allocateModel allocate = null!;
+        //private allocateModel allocate = null!;
 
         [SetUp]
         public void Setup()
@@ -21,7 +21,7 @@ namespace ProgramLogic.nUnitTests
         {
             //Assign
 
-            var amount = 500;
+            var amount = 0;
 
             //Act 0878255600
             var availableAmount = goods.CalculateGoods();

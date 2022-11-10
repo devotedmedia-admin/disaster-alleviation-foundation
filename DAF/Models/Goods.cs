@@ -30,14 +30,14 @@ namespace DAF.Models
             AllocatedGoods = (int)command.ExecuteScalar();
 
             //getting purchases total
-            string pQuery = "SELECT SUM(quantity) FROM purchases";
+            //string pQuery = "SELECT SUM(quantity) FROM purchases";
 
-            SqlCommand sql = new(pQuery, connect);
+            //SqlCommand sql = new(pQuery, connect);
 
-            PurchasedGoods = (int)sql.ExecuteScalar();
+            //PurchasedGoods = (int)sql.ExecuteScalar();
 
             //deducting
-            GoodsAfterDeductions = DonationGoods - AllocatedGoods - PurchasedGoods;
+            GoodsAfterDeductions = DonationGoods - AllocatedGoods; //- PurchasedGoods;
 
             return GoodsAfterDeductions;
         }
